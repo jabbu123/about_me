@@ -1,0 +1,128 @@
+body {
+    position: absolute;
+    left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.About {
+    display: inline;
+    position: relative;
+    top: 300px;
+}
+
+.Interests {
+    position: relative;
+    top: 690px;
+}
+
+.Contact {
+
+    position: relative;
+    top: 1130px;
+    
+}
+.image {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: fixed;
+  z-index: 0;
+}
+.top {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+}
+
+.top:hover {
+    position: fixed;
+    right: 15px;
+    height: 4em;
+    cursor: pointer;
+}
+
+.scrll {
+    height: 3em;
+    position: fixed;
+    bottom: 50px;
+    left: 700px;
+}
+
+.social-icons {
+    text-align: center;
+    }  
+  .social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    }
+  .social-icons li a {
+    border-bottom: none;
+    }
+  .social-icons li img {
+      position: absolute;
+      top: 470px;
+      left: 350px;
+    width:20px;
+    height:20px;
+    margin-right: 20px;
+    z-index: 50;
+  }
+  .social-icons li a.github{
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+  }
+
+  .social-icons li a.insta{
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+}
+
+  .social-icons li img:hover{
+        width: 30px;
+        height: 30px;
+
+  }
+
+img.scrll:hover {
+    height: 4em;
+    position: fixed;
+    left: 695px;
+    cursor: pointer;
+}
+
+#title {
+    font-size: 1.5em;
+}
+
+html {
+    background-color: black;
+}
+
+.content {
+    
+    position: absolute;
+    z-index: 10;
+}
+
+h1 {
+    
+    position: relative;
+    top: 100px;
+    font-size: 7em;
+    
+}
+
+
+@keyframes fadeInAnimation{ 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
