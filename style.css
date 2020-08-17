@@ -45,8 +45,9 @@ body {
 .scrll {
     height: 3em;
     position: fixed;
-    bottom: 50px;
-    left: 700px;
+    bottom: 0px;
+  left: 53%;
+  transform: translate(-50%, -50%);
 }
 
 .social-icons {
@@ -91,7 +92,7 @@ body {
 img.scrll:hover {
     height: 4em;
     position: fixed;
-    left: 695px;
+    right: 20px;
     cursor: pointer;
 }
 
